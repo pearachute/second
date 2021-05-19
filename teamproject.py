@@ -46,3 +46,9 @@ for i in subscribe_num:
         subscribe_num[count - 1] *= 10
     elif count >= 5:
         subscribe_num[count - 1] /= 100
+
+print(subscribe_num)
+x=np.arange(len(channel_name))
+plt.bar(x,subscribe_num)
+plt.xticks(x,channel_name,rotation='vertical')
+plt.show()
