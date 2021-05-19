@@ -5,7 +5,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 URL = 'https://kr.noxinfluencer.com/youtube-channel-rank/top-100-all-all-youtuber-sorted-by-subs-weekly'
-driver = webdriver.Chrome(executable_path='C:/Users/82109/PycharmProjects/minie_sng/chromedriver.exe')
+driver = webdriver.Chrome(executable_path='C:/Users/82109/Desktop/second/chromedriver.exe')
 driver.get(url=URL)
 
 
